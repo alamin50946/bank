@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Your Account</h1>
+    </header>
+    <main>
+      <section class="main-section">
+        <div class="total-deposit">
+          <h1>Total Deposit</h1>
+          <h1>$ <span id="total-deposit-field">0</span></h1>
+        </div>
+        <div class="total-withdraw">
+          <h1>Total Withdraw</h1>
+          <h1>$ <span id="total-withdraw-amount">0</span></h1>
+        </div>
+        <div class="total-amount">
+          <h1>Total Amount</h1>
+          <h1>$ <span id="total-balance">0</span></h1>
+        </div>
+      </section>
+      <section class="second-section">
+        <div class="deposit-section">
+          <h1>Deposit Here</h1>
+          <input id="deposit-field" type="text" />
+          <button id="deposit-btn" class="btn">Deposit</button>
+        </div>
+        <div class="withdraw-section">
+          <h1>Withdraw Here</h1>
+          <input id="withdraw-field" type="text" />
+          <button id="withdraw-btn" class="btn">Withdraw</button>
+        </div>
+      </section>
+    </main>
+    <script src="/bank.js"></script>
+  </body>
+</html>
